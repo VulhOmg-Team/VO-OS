@@ -1,49 +1,62 @@
 # VO-OS Roadmap
 
-## Current Stage
+## Stage 0 — Research
 
-Planning, research, and architecture design stage.
+Status: In Progress
 
-## Phase 1 — Foundation
+Objectives:
 
-Goals:
+- Research Linux distributions.
+- Study existing technologies.
+- Define VO-OS architecture.
+- Write documentation.
 
-- Define the VO-OS architecture.
-- Research Linux distributions, technologies, and open source projects.
-- Create project documentation.
-- Set up the development environment.
-- Establish contribution guidelines.
+---
 
-## Phase 2 — VO Core
+## Stage 1 — Foundation
 
-Goals:
+Objectives:
 
-- Create the minimal VO-OS base system.
-- Define the system structure and package organization.
-- Configure and optimize the Linux kernel.
-- Create the first build system.
-- Prepare the foundation for future modules.
+- Create GitHub organization.
+- Complete project documentation.
+- Define coding standards.
+- Build development environment.
 
-## Phase 3 — VO Installer
+---
 
-Goals:
+## Stage 2 — VO Core
 
-- Develop the VO-OS installation process.
-- Support automatic and advanced manual installation.
+Objectives:
+
+- Create minimal base system.
+- Configure Linux kernel.
+- Configure package management.
+- Prepare build process.
+
+---
+
+## Stage 3 — VO Installer
+
+Objectives:
+
+- Develop installer.
 - Implement hardware detection.
-- Prepare system configuration during installation.
+- Configure automatic installation.
 
-## Phase 4 — VO Center
+---
 
-Goals:
+## Stage 4 — VO Center
 
-- Create the main system management interface.
-- Manage system modules.
-- Manage updates and maintenance.
-- Manage backups, snapshots, and recovery.
-- Provide an accessible interface for beginners and advanced users.
+Objectives:
 
-## Phase 5 — VO Modules
+- Module management.
+- Driver management.
+- System updates.
+- Backup and recovery.
+
+---
+
+## Stage 5 — VO Modules
 
 Initial modules:
 
@@ -53,28 +66,26 @@ Initial modules:
 - Security
 - Streaming
 
-Goals:
+---
 
-- Create modular system components.
-- Allow users to install, remove, and configure features.
-- Provide optimized setups for different use cases.
+## Stage 6 — Testing
 
-## Phase 6 — Testing
-
-Testing areas:
+Testing includes:
 
 - Virtual machines.
-- Different hardware configurations.
+- Physical hardware.
 - Performance.
 - Stability.
 - Compatibility.
 - Security.
 
-## Phase 7 — Community Release
+---
 
-Goals:
+## Stage 7 — First Public Release
 
-- Release public testing versions.
-- Expand documentation.
-- Accept community contributions.
-- Build the VO-OS community.
+Objectives:
+
+- Publish first ISO.
+- Release documentation.
+- Receive community feedback.
+- Continue development.
