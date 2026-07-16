@@ -1,48 +1,40 @@
 # VO System Info
 
-VO System Info is a diagnostic tool for VO-OS.
+VO System Info is a system diagnostic tool for VO-OS.
 
-Its purpose is to collect hardware and system information and provide readable information for users and developers.
+It provides hardware and system information required for future VO-OS components such as:
 
----
+- VO Hardware Advisor;
+- VO Guard;
+- VO Center.
 
-# Features
+## Current Features
 
-Initial features:
+Currently supported:
 
-- CPU information;
-- GPU information;
+- operating system detection;
+- architecture detection.
+
+## Planned Features
+
+Future versions will include:
+
+- CPU detection;
+- GPU detection;
 - RAM information;
 - storage information;
-- operating system information;
-- kernel information.
+- kernel information;
+- driver information;
+- hardware compatibility analysis.
 
-Future features:
+## Build
 
-- hardware compatibility analysis;
-- driver detection;
-- performance recommendations;
-- VO Guard integration.
-
----
-
-# Design Goals
-
-The tool should be:
-
-- lightweight;
-- safe;
-- easy to understand;
-- compatible with different Linux systems.
-
----
-
-# Development
-
-Possible implementation languages:
+Requirements:
 
 - Rust;
-- Python;
-- Shell scripts.
+- Cargo.
 
-The final implementation will be selected based on performance, safety, and maintainability.
+Build:
+
+```bash
+cargo build --release
